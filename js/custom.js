@@ -85,7 +85,7 @@ $(document).scroll(function(){
 		}
 		index++;
 	}
-})
+});
 //console.log(nagativeValue)
 });
 

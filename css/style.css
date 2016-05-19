@@ -74,7 +74,7 @@ p{
 	margin:0px;
 }
 h1{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Microsoft Yahei Open Sans', sans-serif;
 	font-size:80px;
 	line-height:90px;
 	font-weight:700;
@@ -141,7 +141,8 @@ header{
 .banner{
 	overflow:hidden;
 	margin:0 auto !important;
-	background:#CACACA;
+	/*background:#CACACA;*/
+	background: url("../images/bg4.jpg");
 }
 
 .bannerText{

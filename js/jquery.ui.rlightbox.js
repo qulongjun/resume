@@ -457,7 +457,7 @@ $.extend($.ui.rlightbox, {
 				$( window ).bind( "resize.rlightbox", $.proxy(this.liveResize, this) );
 
 				// keyboard navigation
-				$( document ).keyup( $.proxy(this.handleKeyboard, this) );			
+				//$( document ).keyup( $.proxy(this.handleKeyboard, this) );
 			}
 		},
 

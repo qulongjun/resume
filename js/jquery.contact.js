@@ -16,13 +16,13 @@
                         content: $('#comments').val(),
                     },
                     function (data) {
-                        document.getElementById('message').innerHTML = data;
+                        document.getElementById('message').innerHTML = data.message;
                         $('#message').slideDown('slow');
                         $('#cform img.contact-loader').fadeOut('slow', function () {
                             $(this).remove()
                         });
                         $('#submit').removeAttr('disabled');
-                        if (data.match('success') != null) $('#cform').slideUp('slow');
+                        if (data.code == 200) $('#cform').slideUp('slow');
                     }
                 );
 

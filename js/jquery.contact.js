@@ -1,6 +1,5 @@
 (function ($) {
     "use strict";
-
     jQuery(document).ready(function () {
         $('#cform').submit(function () {
             var action = $(this).attr('action');
@@ -25,13 +24,8 @@
                         if (data.code == 200) $('#cform').slideUp('slow');
                     }
                 );
-
             });
-
             return false;
-
         });
-
     });
-
 }(jQuery));

@@ -157,7 +157,8 @@ header {
     margin: 0 auto !important;
     /*background:#CACACA;*/
     /*background: url("../images/bg4.jpg");*/
-    background: url("http://cdn.qulongjun.cn/bg4.jpg");
+    background: url("/images/bg5.jpg");
+    background-size: cover;
 }
 
 .bannerText {

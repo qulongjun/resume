@@ -130,19 +130,23 @@ h5 {
     margin: 0px;
 }
 
-h4.subHeading {
+.subHeading {
     font-weight: 600;
-    font-size: 18px;
-    padding-bottom: 22px;
+    /*font-size: 18px;*/
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .heading {
     text-align: center;
-    padding-bottom: 45px;
+    padding-bottom: 2em;
 }
 
 .topmar {
     margin-top: 20px;
+}
+.introduce{
+    font-size: 16px;
 }
 
 /*----------------------------------------------------
@@ -458,7 +462,9 @@ header {
 ------------------------------------------------------*/
 
 .aboutme {
-    background: #00bdbd;
+    /*background: #00bdbd;*/
+    background-image: url("/images/bg2.jpg");
+    background-size: cover;
     color: #fff;
     position: relative;
 }
@@ -492,7 +498,8 @@ header {
     text-decoration: none;
 }
 .smLine{
-    padding-bottom: 5px;
+    padding-bottom: 1em;
+    font-size: 16px;
 }
 
 /*----------------------------------------------------

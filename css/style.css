@@ -511,7 +511,9 @@ header {
 }
 
 .technical {
-    background: #eeeeee;
+    background: #E7F2FD;
+    /*background-image: url("/images/bg3.jpg");*/
+    /*background-size: cover;*/
     color: #474d5d;
 }
 

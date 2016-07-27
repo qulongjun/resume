@@ -18,7 +18,7 @@
     $('#aboutme').css({'width': windowWidth, 'height': windowHeight - "60"});
     $('#education').css({'width': windowWidth, 'height': windowHeight - "60"});
 
-    window.onresize =function () {
+    window.onresize = function () {
         var windowWidth = $(window).width();
         var windowHeight = $(window).height();
         console.log(windowWidth);
@@ -70,13 +70,11 @@
 
 // for skill chat jquary
     $(document).ready(function (e) {
-//var windowBottom = $(window).height();
         var index = 0;
         $(document).scroll(function () {
             var top = $('.technical').height() - $(window).scrollTop();
             if (top < -300) {
                 if (index == 0) {
-
                     $('.chart').easyPieChart({
                         easing: 'easeOutBounce',
                         onStep: function (from, to, percent) {
@@ -88,7 +86,6 @@
                 index++;
             }
         });
-//console.log(nagativeValue)
     });
 
 
